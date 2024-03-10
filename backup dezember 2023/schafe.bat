@@ -1,0 +1,1 @@
+java -cp sheeps.jar com.hoehn.sheeps.Sheeps > log.txt
