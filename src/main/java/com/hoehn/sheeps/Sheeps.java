@@ -200,7 +200,7 @@ public class Sheeps {
 
     private static void copyFiles() throws IOException {
 
-        LocalDateTime today = LocalDateTime.now();
+        LocalDate today = LocalDate.now();
         // Specify the destination directory path
         Path sourceDirectory = Paths.get("./");
         Path destinationDirectory = Path.of("./backup-"+today);
